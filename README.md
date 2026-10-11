@@ -1,21 +1,21 @@
 <div align="center">
 
   <!-- Profile Mascot / Header -->
-  <img src="cat.png" width="200" alt="Muhammad Nawwar Khadafi" />
+  <img src="cat.png" width="180" alt="Muhammad Nawwar Khadafi" />
 
   <h1>Muhammad Nawwar Khadafi</h1>
 
   <p>
-    <b>Informatics Engineering Student at Politeknik Negeri Lhokseumawe (PNL)</b><br>
-    <i>Passionate about Software Architecture, Automated Data Pipelines, and Systems Engineering.</i>
+    <b>Informatics Engineering Student & Software Developer</b><br>
+    <i>Politeknik Negeri Lhokseumawe (PNL)</i>
   </p>
 
-  <!-- Safe Connect Badges (Email Omitted for Security & Privacy) -->
   <p>
     <a href="https://linkedin.com/in/khadafimuhammadnawwar" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Muhammad_Nawwar_Khadafi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <img src="https://img.shields.io/badge/Location-Lhokseumawe%2C%20Indonesia-10B981?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
+    <img src="https://img.shields.io/badge/Focus-Backend_%26_Data_Pipelines-38BDF8?style=flat-square" alt="Focus" />
     <img src="https://img.shields.io/badge/Status-Open_for_Collaboration-blueviolet?style=flat-square" alt="Status" />
   </p>
 
@@ -23,71 +23,113 @@
 
 ---
 
-### 📌 About Me
+### 💻 Developer Console
 
-- 🎓 **Education:** Informatics Engineering student at **Politeknik Negeri Lhokseumawe (PNL)**.
-- ⚙️ **Focus Areas:** High-precision data pipelines, backend architecture, financial audit automation, and clean-code development.
-- 💡 **Philosophy:** Adopting strict architectural standards, automated checksum verification, and test-driven engineering (`pytest`).
-- 🎯 **Current Goal:** Mastering production-grade backend engineering with Python & modern database systems.
+```bash
+╭─ nawwar@pnl-devstation: ~ ────────────────────────────────────────────────────────╮
+│                                                                                   │
+│  $ whoami --profile                                                               │
+│                                                                                   │
+│  Name          : Muhammad Nawwar Khadafi                                          │
+│  Institution   : Informatics Engineering @ Politeknik Negeri Lhokseumawe (PNL)    │
+│  Domain        : Backend Architecture, Automated Data Pipelines & Systems Logic   │
+│  Core Tools    : Python 3.12+ • PostgreSQL • C/C++ • Linux • Django               │
+│  Methodology   : Test-Driven Development (Pytest) • Strict Financial Checksums    │
+│  Status        : Engineering deterministic & scalable automation systems ⚡       │
+│                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────╯
+```
+
+---
+
+### ⚡ Active Focus & Engineering Scope
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔭 What I'm Building</h4>
+      <ul>
+        <li><b>High-Precision Data Pipelines:</b> Extracting, transforming, and reconciling government financial audit reports (BPK RI).</li>
+        <li><b>Deterministic Validation Gates:</b> Zero-guessing policy with strict balance checksums ($\Delta \le \text{Rp } 1.00$).</li>
+        <li><b>Production Clean Code:</b> Thin controller architecture, decoupled domain services, and robust audit trails.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛡️ Engineering Principles</h4>
+      <ul>
+        <li><b>Zero Data-Guessing:</b> Reject arbitrary rounding or speculative values; require hard proof & audit trails.</li>
+        <li><b>Test-Driven Rigor:</b> Every pipeline logic change is guarded by comprehensive <code>pytest</code> golden baselines.</li>
+        <li><b>Modern Standards:</b> Strict type hints, PEP 621 packaging, and Git Conventional Commits.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 🛠️ Technical Stack & Tooling
 
-<div align="center">
-
-#### Core Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-</p>
-
-#### Backend & Data Engineering
-<p>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
-</p>
-
-#### Tools & DevOps
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-</p>
-
-</div>
-
----
-
-### 🚀 Highlighted Projects
-
-- 📊 **[LKPD Fixed Asset Pipeline](https://github.com/khadafimuhammadnawwar/lkpd-aset-tetap)**  
-  *Automated extraction, reconciliation, and audit-trail pipeline for Indonesian local government financial reports (BPK RI) featuring strict financial checksum gates ($\Delta \le \text{Rp } 1.00$) and multi-tier data extraction.*
-  - **Tech:** `Python 3.12+`, `Pytest`, `Pandas`, `OpenPyXL`, `CLI Tooling`.
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <h4>💻 Core Languages</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" /><br/>
+        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /><br/>
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h4>⚙️ Backend & Data</h4>
+      <p>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/OpenPyXL-217346?style=flat-square&logo=microsoft-excel&logoColor=white" />
+      </p>
+    </td>
+    <td width="34%" valign="top" align="center">
+      <h4>🛠️ Systems & DevOps</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /><br/>
+        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📈 GitHub Insights & Statistics
+### 🚀 Featured Engineering Case Study
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=khadafimuhammadnawwar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khadafimuhammadnawwar&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
-</div>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khadafimuhammadnawwar&theme=tokyonight&hide_border=true" width="97%" alt="GitHub Streak" />
-</p>
+<table width="100%">
+  <tr>
+    <td>
+      <h3>📊 <a href="https://github.com/khadafimuhammadnawwar/lkpd-aset-tetap">LKPD Fixed Asset Pipeline</a></h3>
+      <p>
+        An enterprise-grade automation pipeline built to extract, reconcile, and audit 7 fixed-asset accounts from BPK RI official local government financial reports (2018–2023) across 23 regencies and cities in Aceh.
+      </p>
+      <ul>
+        <li><b>Hard Checksum Gate:</b> Enforces zero-tolerance validation ($\Delta \le \text{Rp } 1.00$) against official balance sheet totals.</li>
+        <li><b>Multi-Tier Extraction:</b> Spatial tabular parsing (Tier 1), raw regex extraction (Tier 2), and automated human-in-the-loop review queues.</li>
+        <li><b>Immutable Verification:</b> Protected master templates and golden baseline test suite verified with automated <code>pytest</code> suites.</li>
+      </ul>
+      <p>
+        <b>Tech Stack:</b> <code>Python 3.12+</code> • <code>Pytest</code> • <code>Pandas</code> • <code>OpenPyXL</code> • <code>PEP 621 CLI</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 <div align="center">
-  <sub>Designed with precision & engineering standards • <b>Muhammad Nawwar Khadafi</b></sub>
+  <sub>Engineered with precision & modern architectural standards • <b>Muhammad Nawwar Khadafi</b></sub>
 </div>
