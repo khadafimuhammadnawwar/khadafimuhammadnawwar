@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Profile Mascot / Header -->
-  <img src="cat.png" width="220" alt="Muhammad Nawwar Khadafi" />
+  <img src="cat.jpg" width="220" alt="Muhammad Nawwar Khadafi" />
 
   <h1>Muhammad Nawwar Khadafi</h1>
 
