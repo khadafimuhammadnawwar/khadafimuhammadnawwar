@@ -1,23 +1,22 @@
 <div align="center">
 
-  <!-- Dynamic Typing Banner -->
-  <a href="https://github.com/khadafimuhammadnawwar">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi+there,+I'm+Muhammad+Nawwar+Khadafi+👋;Informatics+Engineering+Student+at+PNL;Backend+Developer+%26+Data+Pipeline+Enthusiast;Building+Robust+%26+Automated+Solutions" alt="Typing SVG" />
-  </a>
+  <!-- Profile Mascot / Header -->
+  <img src="cat.png" width="220" alt="Muhammad Nawwar Khadafi" />
 
-  <p align="center">
-    <b>Passionate about Software Architecture, Automated Data Pipelines, and Systems Engineering.</b>
+  <h1>Muhammad Nawwar Khadafi</h1>
+
+  <p>
+    <b>Informatics Engineering Student at Politeknik Negeri Lhokseumawe (PNL)</b><br>
+    <i>Passionate about Software Architecture, Automated Data Pipelines, and Systems Engineering.</i>
   </p>
 
-  <!-- Quick Badges -->
-  <p align="center">
-    <a href="mailto:khadafimuhammadnawwar@gmail.com">
-      <img src="https://img.shields.io/badge/Email-khadafimuhammadnawwar%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-    </a>
+  <!-- Safe Connect Badges (Email Omitted for Security & Privacy) -->
+  <p>
     <a href="https://linkedin.com/in/khadafimuhammadnawwar" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Muhammad_Nawwar_Khadafi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <img src="https://img.shields.io/badge/Location-Lhokseumawe%2C%20Indonesia-10B981?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
+    <img src="https://img.shields.io/badge/Status-Open_for_Collaboration-blueviolet?style=flat-square" alt="Status" />
   </p>
 
 </div>
@@ -92,5 +91,3 @@
 <div align="center">
   <sub>Designed with precision & engineering standards • <b>Muhammad Nawwar Khadafi</b></sub>
 </div>
-
-
