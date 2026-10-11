@@ -7,7 +7,6 @@
 
   <p>
     <b>Informatics Engineering Student & Software Developer</b><br>
-    <i>Politeknik Negeri Lhokseumawe (PNL)</i>
   </p>
 
   <p>
