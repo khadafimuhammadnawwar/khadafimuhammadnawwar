@@ -48,7 +48,7 @@
       <h4>🔭 What I'm Building</h4>
       <ul>
         <li><b>High-Precision Data Pipelines:</b> Extracting, transforming, and reconciling government financial audit reports (BPK RI).</li>
-        <li><b>Deterministic Validation Gates:</b> Zero-guessing policy with strict balance checksums ($\Delta \le \text{Rp } 1.00$).</li>
+        <li><b>Deterministic Validation Gates:</b> Zero-guessing policy with strict balance checksums (Δ ≤ Rp 1.00).</li>
         <li><b>Production Clean Code:</b> Thin controller architecture, decoupled domain services, and robust audit trails.</li>
       </ul>
     </td>
@@ -85,10 +85,32 @@
         An enterprise-grade automation pipeline built to extract, reconcile, and audit 7 fixed-asset accounts from BPK RI official local government financial reports (2018–2023) across 23 regencies and cities in Aceh.
       </p>
       <ul>
-        <li><b>Hard Checksum Gate:</b> Enforces zero-tolerance validation ($\Delta \le \text{Rp } 1.00$) against official balance sheet totals.</li>
+        <li><b>Hard Checksum Gate:</b> Enforces zero-tolerance validation (Δ ≤ Rp 1.00) against official balance sheet totals.</li>
         <li><b>Multi-Tier Extraction:</b> Spatial tabular parsing (Tier 1), raw regex extraction (Tier 2), and automated human-in-the-loop review queues.</li>
         <li><b>Immutable Verification:</b> Protected master templates and golden baseline test suite verified with automated <code>pytest</code> suites.</li>
       </ul>
+      <pre><code>$ cat pipeline_architecture.txt
+
+┌──────────────────────────┐       ┌───────────────────────────────────────────────┐
+│  1. RAW DATA INGESTION   │       │         2. MULTI-TIER EXTRACTION ENGINE       │
+│                          │       │                                               │
+│  📄 250+ LKPD PDFs       ├──────►│  • Tier 1: Spatial Tabular Parsing (OpenPyXL) │
+│  📍 23 Kab/Kota (Aceh)   │       │  • Tier 2: Raw Regex Fallback Engine          │
+└──────────────────────────┘       └───────────────────────┬───────────────────────┘
+                                                           │
+                                                           ▼
+┌──────────────────────────┐       ┌───────────────────────────────────────────────┐
+│   4. QA & VERIFICATION   │       │         3. DETERMINISTIC VALIDATION GATE      │
+│                          │ PASS  │                                               │
+│  ✅ Golden Baseline DB   │◄──────┤  ⚖️ Hard Checksum Gate (Δ ≤ Rp 1.00)          │
+│  🧪 Pytest Suite Guarded │       │     Against Official Balance Sheet Totals     │
+└──────────────────────────┘       └───────────────────────┬───────────────────────┘
+                                                           │ FAIL (Δ > Rp 1.00)
+                                                           ▼
+                                   ┌───────────────────────────────────────────────┐
+                                   │         ⚠️ HUMAN-IN-THE-LOOP QUEUE            │
+                                   │         Flagged for Manual Audit Review       │
+                                   └───────────────────────────────────────────────┘</code></pre>
       <p>
         <b>Tech Stack:</b> <code>Python 3.12+</code> • <code>Pytest</code> • <code>Pandas</code> • <code>OpenPyXL</code> • <code>PEP 621 CLI</code>
       </p>
