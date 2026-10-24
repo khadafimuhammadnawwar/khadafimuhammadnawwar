@@ -118,6 +118,28 @@
   </tr>
 </table>
 
+<br/>
+
+<table width="100%">
+  <tr>
+    <td>
+      <h3>⚡ <a href="https://github.com/khadafimuhammadnawwar/ProyekElearning">Hybrid E-Learning Platform (Dual-Currency & Community Engine)</a></h3>
+      <p>
+        A production-grade online learning platform featuring dual payment gateway integration, automated Discord community role synchronization, and asynchronous video streaming infrastructure.
+      </p>
+      <ul>
+        <li><b>Hybrid Dual-Currency Gateway:</b> Unified webhook architecture routing local IDR payments via Midtrans Snap (QRIS, e-Wallets, Virtual Accounts) and global USD checkouts via Lemon Squeezy (PayPal, Apple Pay) with automated HMAC signature verification.</li>
+        <li><b>Automated Discord Community Integration:</b> Real-time membership tier synchronization with Discord REST API v10 to instantly provision premium student roles upon successful checkout.</li>
+        <li><b>Asynchronous Video & Document Delivery:</b> Background video upload pipeline utilizing Cloudinary with adaptive HLS (HTTP Live Streaming <code>.m3u8</code>) transcoding and secure CloudPDF modular curriculum paywalls.</li>
+        <li><b>Clean Service Layer Architecture:</b> Decoupled transaction, subscription, and enrollment domain services isolated in <code>core/services.py</code> with comprehensive webhook replay protection.</li>
+      </ul>
+      <p>
+        <b>Tech Stack:</b> <code>Python 3.12+</code> • <code>Django 5.x</code> • <code>PostgreSQL / MySQL</code> • <code>Midtrans Snap API</code> • <code>Lemon Squeezy API</code> • <code>Discord API v10</code> • <code>Tailwind CSS</code> • <code>Cloudinary</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ---
 
 <div align="center">
