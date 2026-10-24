@@ -75,7 +75,7 @@
 
 ---
 
-### 🚀 Featured Engineering Case Study
+### 🚀 Featured Engineering Case Studies
 
 <table width="100%">
   <tr>
@@ -91,6 +91,28 @@
       </ul>
       <p>
         <b>Tech Stack:</b> <code>Python 3.12+</code> • <code>Pytest</code> • <code>Pandas</code> • <code>OpenPyXL</code> • <code>PEP 621 CLI</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <td>
+      <h3>🎓 <a href="https://github.com/khadafimuhammadnawwar/sim-magang-tik-pnl">SIM Magang JTIK PNL (Academic Internship Management System)</a></h3>
+      <p>
+        An enterprise academic workflow and digital document review platform engineered for the Department of Information and Computer Technology (JTIK), Politeknik Negeri Lhokseumawe.
+      </p>
+      <ul>
+        <li><b>Interactive PDF Review Studio:</b> Zero-lag in-browser document review featuring custom touch/pointer drawing canvas overlay powered by local Mozilla PDF.js v3.11.174 without external CDNs.</li>
+        <li><b>Sequential Approval State Machine:</b> Strict 4-step sequential approval chain (Koordinator Magang &rarr; Kaprodi &rarr; Sekjur &rarr; Kajur) enforced via <code>django-fsm-2</code> model guards and service layer orchestration.</li>
+        <li><b>Concurrency & Atomicity Safety:</b> ACID atomic operations with PostgreSQL row-level locks (<code>select_for_update</code>) to prevent double-approval race conditions, auto SHA-256 document checksums, and append-only audit trails.</li>
+        <li><b>Modern Server-Rendered Architecture:</b> Reactive hypermedia-driven UI combining Django 6 server templates with Tailwind CSS, Alpine.js, and granular HTMX partial exchanges.</li>
+      </ul>
+      <p>
+        <b>Tech Stack:</b> <code>Python 3.12+</code> • <code>Django 6.x</code> • <code>PostgreSQL</code> • <code>HTMX</code> • <code>Alpine.js</code> • <code>Tailwind CSS</code> • <code>Mozilla PDF.js</code>
       </p>
     </td>
   </tr>
