@@ -10,10 +10,9 @@
   </p>
 
   <p>
-    <a href="https://linkedin.com/in/khadafimuhammadnawwar" target="_blank">
+    <a href="https://www.linkedin.com/in/muhammadnawwarkhadafi/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Muhammad_Nawwar_Khadafi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <img src="https://img.shields.io/badge/Location-Lhokseumawe%2C%20Indonesia-10B981?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
     <img src="https://img.shields.io/badge/Focus-Backend_%26_Data_Pipelines-38BDF8?style=flat-square" alt="Focus" />
     <img src="https://img.shields.io/badge/Status-Open_for_Collaboration-blueviolet?style=flat-square" alt="Status" />
   </p>
