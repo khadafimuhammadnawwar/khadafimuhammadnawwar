@@ -69,7 +69,7 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,django,postgres,redis,docker,linux,bash,git,github,c,cpp,cs,js,tailwind,vscode,postman&perline=8" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=py,django,postgres,redis,docker,linux,bash,git,github,cpp,js,tailwind,vscode,postman&perline=7" alt="My Skills" />
   </a>
 </div>
 
